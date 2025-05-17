@@ -17,26 +17,26 @@ A robust Go Fiber boilerplate following the Repository Pattern, designed for bui
 - **Swagger**: API documentation using [Swagger](github.com/gofiber/contrib/swagger)
 
 ## Project Structure
-| Directory | Description |
-|-----------|-------------|
-| `app/constants` | Application constants |
-| `app/controller` | HTTP request handlers |
-| `app/dao` | Data Access Objects |
-| `app/dto` | Data Transfer Objects |
-| `app/errors` | Custom error definitions |
-| `app/middleware` | HTTP middleware |
-| `app/model` | Database models |
-| `app/repository` | Data access layer |
-| `app/request` | Request models |
-| `app/response` | Response models |
-| `app/service` | Business logic |
-| `app/validator` | Request validation |
-| `bootstrap` | Application bootstrap |
-| `config` | Configuration |
-| `database` | Database migrations |
-| `docker` | Docker configurations |
-| `router` | Route definitions |
-| `utils` | Utility functions |
+| Directory        | Description              |
+| ---------------- | ------------------------ |
+| `app/constants`  | Application constants    |
+| `app/controller` | HTTP request handlers    |
+| `app/dao`        | Data Access Objects      |
+| `app/dto`        | Data Transfer Objects    |
+| `app/errors`     | Custom error definitions |
+| `app/middleware` | HTTP middleware          |
+| `app/model`      | Database models          |
+| `app/repository` | Data access layer        |
+| `app/request`    | Request models           |
+| `app/response`   | Response models          |
+| `app/service`    | Business logic           |
+| `app/validator`  | Request validation       |
+| `bootstrap`      | Application bootstrap    |
+| `config`         | Configuration            |
+| `database`       | Database migrations      |
+| `docker`         | Docker configurations    |
+| `router`         | Route definitions        |
+| `utils`          | Utility functions        |
 
 
 ## Prerequisites
@@ -46,18 +46,7 @@ A robust Go Fiber boilerplate following the Repository Pattern, designed for bui
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/fiber-boilerplate.git
-cd fiber-boilerplate
-```
-
-2. Set up your environment variables
-```bash
-cp .env.example .env
-```
-
-3. Build the docker image, install dependency and run project
+1. Build the docker image, install dependency and run project
 ```bash
 docker-compose build && docker-compose up -d
 ```
